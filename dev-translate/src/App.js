@@ -38,7 +38,7 @@ export default function App() {
         <h2>About</h2>
         <p>Devanagari is the art of written Hindi language. This application translates basic english letters into devanagari on the basis of how they sound.</p>
       </div>
-      <input className="inputText" />
+      <input className="inputText" placeholder="Enter an English Letter.."/>
       <button onClick={clickHandler}
       className="btn"
       >Translate</button>
@@ -61,7 +61,7 @@ export default function App() {
       </div>
 
       <div className="footer">
-        <small>made with love in India!</small>
+        <small>Made with ❤️ in भारत !</small>
       </div>
     </div>
   );
