@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 *{
 
   margin: 0;
   padding: 0;
   outline: 0;
+ 
 }
+
 
 .App {
   font-family: sans-serif;
   text-align: center;
-  background: url("https://thumbs.dreamstime.com/b/alphabet-seamless-pattern-devanagari-letters-sanskrit-simple-background-pastel-colors-vector-illustration-alphabet-196061259.jpg")
+  background: url("https://thumbs.dreamstime.com/b/alphabet-seamless-pattern-devanagari-letters-sanskrit-simple-background-pastel-colors-vector-illustration-alphabet-196061259.jpg");
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
 }
 
+
 input {
-  width: 70%;
+  width: 60%;
   padding: 1rem;
 
   margin-left: auto;
@@ -34,5 +41,78 @@ button {
 .output {
   padding: 2rem;
   font-weight: 800;
+  font-size: 1.5rem;
+  background-color: black  ;
+  padding: 1rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.nav{
+background-color: black  ;
+padding: 1rem;
+text-decoration: underline;
+
+}
+
+.about{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 30%;
+  background-color: black;
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 2px solid white;
+}
+.about h2{
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+.about p{
+  letter-spacing: 1.2px;
+}
+.btn{
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: 2px solid white;
+}
+
+.listArrParent{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: black;
+  max-width: 50%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.listArr{
   font-size: 2rem;
+  padding: 1rem;
+  
+}
+
+.footer{
+
+  margin-top: 2rem;
+  height: 12vh;
+  background-color: black;
+  position: relative;
+
+}
+
+.footer small{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.75rem;
 }
