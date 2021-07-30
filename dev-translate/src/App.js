@@ -52,6 +52,7 @@ export default function App() {
             key={items}
             onClick={() => listClickHandler(items)}
             className="listArr"
+            
             style={{ cursor: "pointer", padding: "1rem" }}
           >
             {items}
